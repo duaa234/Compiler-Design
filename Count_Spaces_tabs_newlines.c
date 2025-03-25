@@ -7,7 +7,7 @@ int main() {
 
     printf("Enter a paragraph (Ctrl+Z to finish, press enter again to see results) :\n");
 
-    // Read characters until EOF (Ctrl+D on Unix/Mac, Ctrl+Z on Windows)
+   
     while ((ch = getchar()) != EOF) {
         if (ch == ' ') {
             spaces++;
